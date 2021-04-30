@@ -1,0 +1,57 @@
+.Home-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.posts-titles {
+  list-style: none;
+  padding: 0;
+}
+
+.post-link:hover {
+  color: #8A8A8A;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-size {
+    width: 100vw; 
+  }
+
+  .post-link {
+    font-size: 20px;
+    color: #444;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s all;
+    text-decoration: none;
+  }
+
+  .title {
+    color: #D3D2D2;
+    font-size: 50px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .menu-size {
+    width: 60%;
+  }
+
+  .post-link {
+    font-size: 25px;
+    color: #444;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.3s all;
+    text-decoration: none;
+  }
+
+  .title {
+    color: #D3D2D2;
+    font-size: 50px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  }
+}
